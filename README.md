@@ -64,3 +64,16 @@ Poster sur votre **fork git** ,le **Dockerfile** et le **docker-compose.yml** da
 ## Questions
 
 Si vous avez des questions ouvrer des **issues** sur ce dépôt et non sur votre **fork** !.
+
+## Attendu
+
+Votre **fork** doit avoir les répertoires et fichiers suivant :
+
+```
+|- app-nodejs
+      |- Dockerfile
+|- url.txt
+|- todo-app
+      |- Dockerfile
+      |- docker-compose.yml
+```
