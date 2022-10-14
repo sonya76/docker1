@@ -35,7 +35,7 @@ Faires les étapes :
 
 Dans la partie **Sharing our App** il faudra créer un compte sur [dockerhub](https://hub.docker.com) et y envoyer votre image **docker**.
 
-Mettre l'url de votre dépôt sur **dockerhub** dans un fichier `url.txt` elle ressemblera à `https://hub.docker.com/u/nom_user_choisit`
+Mettre l'url de votre dépôt sur **dockerhub** dans un fichier `url.txt` elle ressemblera à `https://hub.docker.com/u/nom_user_choisit` que vous mettrez dans votre **fork git**.
 
 Mettre à jour le **docker-compose.yml** avec les versions **LTS** de **nodejs** : `node:16-alpine`
 
