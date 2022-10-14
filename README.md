@@ -16,7 +16,7 @@ Lors de la construction de votre image choisissez la version `node:16-alpine` au
 
 Personnaliser le fichier `server.js` , changer le **port** par `3478`, mettre les textes que renvoie le serveur en français.Changer le texte du `Hello World` par un texte de votre choix.
 
-Poster sur votre **fork git** ,le **Dockerfile** dans un répertoire **todo-app**. 
+Poster sur votre **fork git** ,le **Dockerfile** dans un répertoire **app-nodejs**. 
 
 ## Docker avec une base de donnée
 
@@ -47,7 +47,7 @@ Changer le **service** `mysql` en `mariadb`
 
 L'image de **mariadb** sera `mariadb:10.6`
 
-Poster sur votre **fork git** ,le **Dockerfile** et le **docker-compose.yml** dans un répertoire **app-nodejs**. 
+Poster sur votre **fork git** ,le **Dockerfile** et le **docker-compose.yml** dans un répertoire **todo-app**. 
 
 
 
