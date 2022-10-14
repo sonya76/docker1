@@ -1,0 +1,13 @@
+{
+    "name": "todo_app",
+    "version": "1.0.0",
+    "description": "Node.js sur Docker",
+    "author": "Sonia Chalal soniachalalceppic@gmail.com",
+    "main": "server.js",
+    "scripts": {
+        "start": "node server.js"
+    },
+    "dependencies": {
+        "express": "^4.16.1"
+    }
+}
