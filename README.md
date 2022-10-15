@@ -16,7 +16,7 @@ Lors de la construction de votre image choisissez la version `node:16-alpine` au
 
 Personnaliser le fichier `server.js` , changer le **port** par `3478`, mettre les textes que renvoie le serveur en français.Changer le texte du `Hello World` par un texte de votre choix.
 
-Poster sur votre **fork git** ,le **Dockerfile** dans un répertoire **todo-app**. 
+Poster sur votre **fork git** ,le **Dockerfile** dans un répertoire **app-nodejs**. 
 
 ## Docker avec une base de donnée
 
@@ -35,7 +35,7 @@ Faires les étapes :
 
 Dans la partie **Sharing our App** il faudra créer un compte sur [dockerhub](https://hub.docker.com) et y envoyer votre image **docker**.
 
-Mettre l'url de votre dépôt sur **dockerhub** dans un fichier `url.txt` elle ressemblera à `https://hub.docker.com/u/nom_user_choisit`
+Mettre l'url de votre dépôt sur **dockerhub** dans un fichier `url.txt` elle ressemblera à `https://hub.docker.com/u/nom_user_choisit` que vous mettrez dans votre **fork git**.
 
 Mettre à jour le **docker-compose.yml** avec les versions **LTS** de **nodejs** : `node:16-alpine`
 
@@ -47,7 +47,7 @@ Changer le **service** `mysql` en `mariadb`
 
 L'image de **mariadb** sera `mariadb:10.6`
 
-Poster sur votre **fork git** ,le **Dockerfile** et que le **docker-compose.yml** dans un répertoire **app-nodejs**. 
+Poster sur votre **fork git** ,le **Dockerfile** et le **docker-compose.yml** dans un répertoire **todo-app**. 
 
 
 
@@ -64,3 +64,16 @@ Poster sur votre **fork git** ,le **Dockerfile** et que le **docker-compose.yml*
 ## Questions
 
 Si vous avez des questions ouvrer des **issues** sur ce dépôt et non sur votre **fork** !.
+
+## Attendu
+
+Votre **fork** doit avoir les répertoires et fichiers suivant :
+
+```
+|- app-nodejs
+      |- Dockerfile
+|- url.txt
+|- todo-app
+      |- Dockerfile
+      |- docker-compose.yml
+```
